@@ -1,0 +1,14 @@
+body {
+  background-image: url(./img/background.jpg);
+}
+
+form {
+    background-color: burlywood;
+	text-align: center;
+	width: 60vw;
+	margin: 0 auto;
+}
+
+header {
+    text-align: center;
+}
