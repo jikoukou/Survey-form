@@ -1,14 +1,45 @@
 body {
   background-image: url(./img/background.jpg);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+h1{
+    font-size: 40px;
 }
 
 form {
-    background-color: burlywood;
-	text-align: center;
-	width: 60vw;
+    background-color: brown;
+	width: 30vw;
 	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+	max-width: 50vw;
 }
 
 header {
     text-align: center;
+}
+
+fieldset {
+    border: transparent;
+    text-align: left;	
+}
+
+.text, select, textarea{
+	font-size: 20px;
+	width: 100%;
+    height: 4vh;
+}
+
+textarea {
+	width: 100%;
+	height: 20vh;
+}
+
+button {
+     width: 90%;
+	 height: 5vh;
+	 margin-bottom: 10px;
+	 background-color: green;
 }
